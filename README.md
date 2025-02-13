@@ -1,21 +1,21 @@
 # Regresión no Lineal 
 
-En esta actividad, se generará un **modelo de regresión lineal múltiple** utilizando el archivo **`A1.4 Vino Tinto.csv`**, que contiene **1,599 observaciones**.
-Cada observación incluye **11 características** distintas relacionadas con el vino, como acidez, pH, y contenido de alcohol, entre otras. El objetivo de este análisis es entrenar 
-un modelo que pueda predecir la calidad del vino en función de las características disponibles, aplicando técnicas de **selección de características** para mejorar el rendimiento del modelo.
+En esta actividad, se generarán diferentes modelos de regresión no lineal utilizando el archivo A1.6 Tiempo de Entrega.csv, que contiene información sobre 432 observaciones de tareas entregadas en la materia de Sistemas Digitales. Cada observación incluye el tiempo restante antes de la entrega y la calificación obtenida.
 
 ## 🎯 Objetivo
+- Aplicar regresión polinomial para modelar la relación entre el tiempo de entrega y la calificación.
+- Implementar un modelo de regresión segmentada para identificar cambios en la tendencia de los datos.
+- Entrenar un modelo K-Nearest Neighbors (KNN) y evaluar su capacidad predictiva.
+- Comparar los modelos en términos de precisión (RSE) e interpretabilidad.
 
-- Utilizar métodos de **selección hacia adelante** y **selección hacia atrás** para elegir las mejores características para un modelo de regresión lineal.
-- Evaluar el desempeño de los modelos utilizando **R²** como métrica de ajuste.
 
 - ## 📂 Archivos
 
-- **`A1.4 Vino Tinto.csv`**: Conjunto de datos que contiene información sobre la calidad del vino.
-- **`SeleccionC.ipynb`**: Script con el código para realizar la selección de características y evaluación de modelos.
-- **`SeleccionC.html`**: HTML del codigo 
+- **`A1.6 Tiempo de Entrega.csv`**: Conjunto de datos que contiene información sobre la calidad del vino.
+- **`RegresionNlineal.ipynb`**: Script con el código para realizar la selección de características y evaluación de modelos.
+- **`RegresionNlineal.html`**: HTML del codigo 
 - **`README.md`**: Este archivo de documentación.
 
-**[-Ver HTML](SeleccionC.html)**    
-**[-Descargar jupyter notebook](SeleccionC.ipynb)**  
-**[-Descargar base de datos](A1.4VinoTinto.csv)**  
+**[-Ver HTML](RegresionNlineal.html)**    
+**[-Descargar jupyter notebook](RegresionNlineal.ipynb)**  
+**[-Descargar base de datos](A1.6TiempodeEntrega.csv)**  
